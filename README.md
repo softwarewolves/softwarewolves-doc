@@ -12,4 +12,4 @@ The following roles can be distinguished:
 Starting a game
 ===============
 To start a game, you need to send the following chatmessage to the so-called Game Coordinator (Jabber Id "sww@jabber.org" or "sww@localserver"):
-* <code>I want to play</code> – Indicates you want to play a werewolves game. The Game Coordinator will dispatch you to a chatroom.
+* >I want to play</code> – Indicates you want to play a werewolves game. The Game Coordinator will dispatch you to a chatroom.
