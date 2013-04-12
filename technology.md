@@ -1,4 +1,13 @@
-The underlying technology used for the Softwarewolves game is the [Extensible Messaging and Presence Protocol (XMPP)][1], also known as 'Jabber'. 
+disclaimer
+==========
+
+In order to get started, you do not need to understand the underlying XMPP technology.
+When you are working on more advanced stuff, you may need some of the concepts described below.
+
+introduction
+=============
+
+The underlying technology used for the Softwarewolves game is the [Extensible Messaging and Presence Protocol (XMPP)][1], AKA *Jabber*.
 Players are XMPP clients, but so are the game co-ordinator and the game engine.
 In this coding contest, you develop an XMPP client bot that
 * connects to an XMPP server, 
@@ -22,12 +31,16 @@ Instead, we will give a quick overview of XMPP concepts that underly your bot op
 Some you may not encounter.
 If, on the other hand, the current description does not cover your needs, you may find what you need on [the website of the XMPP Standards Foundation][2].
 
+establishing a connection with the server
+=========================================
+
 Clients need to present credentials to authenticate to the server.
-The XMPP servers we use in the game all accept username/password credentials. Proviso: JID.
-When authentication with the server succeeds, the client opens an XML stream that will act as a container for so-called XML Stanzas.
-Hopefully, the streams will be transparant for you as you develop the bot as most libraries seem to hide them, so we will not cover them here in depth.
-If your library 
+The XMPP servers we use in the game all accept username/password credentials.
+When authentication with the server succeeds, the client opens an *XML Stream* that will act as a container for so-called *XML Stanzas*.
 You can think of the stream as a bi-directional connection from your bot to the server.
+
+XMPP makes a distinction between an *entity* and 
+
 
 
 establish a session on a server
