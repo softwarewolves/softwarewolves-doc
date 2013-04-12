@@ -5,12 +5,12 @@ The game
 --------
 
 The game follows a night and day cycle. 
-* At night, the wolves pick a villager to kill, while everyone else "sleeps". 
-* During the day, the villagers wake up and discover that one of them has died, so they will discuss who might be the werewolf. The villagers lynch their guess, hoping it's a wolf. The villagers win if they kill all the wolves; the wolves win if there are the same number of them as villagers.
+* At night, the werewolf picks a villager to kill, while everyone else "sleeps". 
+* During the day, the villagers wake up and discover that one of them has died, so they will discuss who might be the werewolf. The villagers lynch their guess, hoping it's the wolf. The villagers win if they kill the werewolf; the werewolf wins if there is only one villager left.
 
 The following roles can be distinguished:
-* Villager – The villager is the simplest role. In the daytime, you vote on who to kill. You try to narrow down who the wolf(s) is/are. 
-* Werewolf – The wolf kills one of the villagers during the night. During the day, the Werewolf acts a villager trying to avoid suspicion. 
+* Villager – The villager is the simplest role. In the daytime, you vote on who to kill. You try to narrow down who the wolf is. 
+* Werewolf – The wolf kills one of the villagers during the night. During the day, the werewolf acts a villager trying to avoid suspicion. 
 
 
 Starting a game
@@ -21,14 +21,18 @@ Starting a game
         I want to play 
     
 
-* To  indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies of the chatroom (Jabber Id "softwarewolf"). Any string containing werewolf will work. The MC will only take into account requests until the game starts.
+* To indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies of the chatroom (Jabber Id "softwarewolf"). Any string containing werewolf will work. The MC will only take into account requests until the game starts.
 
         werewolf
+        
+* Upon start of the game, the MC notifies the player that is elected as werewolf by replying:
+
+        You are selected as werewolf for this game. 
   
 Commands for playing the game
 -----------------------------
 
-* During the night, werewolves can use send the following _private_ message to the MC to choose which player to eat:
+* During the night, the werewolf can use send the following _private_ message to the MC to choose which player to eat:
 
         I eat <playername>
         
@@ -39,9 +43,9 @@ Commands for playing the game
 Interpreting the game progress
 ------------------------------
 
-The MC outputs information in the chatroom as the game progresses.
+The MC outputs information as the game progresses.
 
-###Difference between night and day
+###Switching between night and day
 
 Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject accordingly:
 * The chatroom topic that indicates it's the werewolves turn:
@@ -53,5 +57,7 @@ Night and day last for a particular time period. To inform all players when the 
         Day
 
 
-* We list the chatroom messages the MC posts (visible to all players).
+###Chatroom messages (visible to all players)
+
+
 
