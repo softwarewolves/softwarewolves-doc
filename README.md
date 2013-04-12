@@ -57,7 +57,20 @@ Night and day last for a particular time period. To inform all players when the 
         Day
 
 
-###Chatroom messages (visible to all players)
+###Private messages from the MC to the werewolf
+* At the start of each night, the MC indicates it is time for the werewolf to select a victim by sending the following private message to the werewolf:
 
+        Please choose who you want to eat: <playername1>,<playername2>,…,<playernameN>
+
+###Chatroom messages (visible to all players)
+* At the start of each day, the MC informs all players which player was killed by of the werewolf last night by posting the following message in the chatroom:
+
+        The werewolf ate <Playername>
+        
+* Subsequently, the MC invites all players to vote who should be hanged by posting the following message:
+
+        Please vote who should be hanged: <playername1>,<playername2>,…,<playernameN>
+        
+*
 
 
