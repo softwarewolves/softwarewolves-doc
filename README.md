@@ -71,7 +71,7 @@ Night and day last for a particular time period. To inform all players when the 
 
         Please vote who should be hanged: <playername1>,<playername2>,…,<playernameN>
         
-* After all votes have been cast (or the time for voting expires), the MC counts the votes and posts the following message to inform all players who was hanged:
+* After all votes have been cast (or the time for voting expires), the MC counts the votes and posts the following message to inform all players who was hanged (in case there is a tie, the MC selects who is to be hanged):
 
         The villagers hanged <Playername>
         
@@ -84,12 +84,16 @@ Night and day last for a particular time period. To inform all players when the 
         Oh no! Villagers do not outnumber werewolves anymore, so the werewolves know they are 
         stronger and mount a daytime massacre and slaughter all remaining villagers! - The werewolves win.
         
-* In case a player votes for himself to be hanged, the MC posts the following error message:
+* In case a player with name <Playername> votes for himself to be hanged, the MC posts the following error message:
 
         <Playername>, you cannot be serious! You cannot hang yourself! Please vote again. 
         
-* In case a player votes to hang a player that is already dead, the MC posts the following error message:
+* In case a player with name <Playername> votes to hang a player that is already dead, the MC posts the following error message:
 
         <Playername>, you can only vote for live players: <playername1>,<playername2>,…,<playernameN>
+        
+* In case a player with name <Playername> votes more than once within the same voting round, the MC posts the following error message:
+
+        <Playername>, nice try but you can only vote once! 
 
 
