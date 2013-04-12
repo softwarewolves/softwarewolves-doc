@@ -25,8 +25,8 @@ Starting a game
 
         werewolf
   
-Playing the game
-----------------
+Commands for playing the game
+-----------------------------
 
 * During the night, werewolves can use send the following _private_ message to the MC to choose which player to eat:
 
@@ -36,9 +36,11 @@ Playing the game
 
         I vote for <playername> 
 
-Narrator output
----------------
+Interpreting the game progress
+------------------------------
 
 The MC outputs information in the chatroom as the game progresses.
 
-Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject to _Night_ or _Day_. 
+* Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject to _Night_ or _Day_. 
+* We list the chatroom messages the MC posts (visible to all players).
+
