@@ -41,6 +41,17 @@ Interpreting the game progress
 
 The MC outputs information in the chatroom as the game progresses.
 
-* Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject to _Night_ or _Day_. 
+###Difference between night and day
+
+Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject accordingly:
+* The chatroom topic that indicates it's the werewolves turn:
+
+        Night
+        
+* The chatroom topic that indicates it's the villagers turn:
+
+        Day
+
+
 * We list the chatroom messages the MC posts (visible to all players).
 
