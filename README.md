@@ -16,14 +16,24 @@ The following roles can be distinguished:
 Starting a game
 ---------------
 
-* To start a game, you need to send the following chatmessage to the so-called Game Coordinator (Jabber Id "sww@jabber.org" or "sww@localserver"):
+* To start a game, you need to send the following chatmessage to the Game Coordinator (Jabber Id "sww@jabber.org" or "sww@localserver"). The Game Coordinator will react by dispatching you to a chatroom.
 
         I want to play 
     
-–> Indicates you want to play a werewolves game. The Game Coordinator will dispatch you to a chatroom.
 
-* To  indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies of the chatroom (Jabber Id "softwarewolf"):
+* To  indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies of the chatroom (Jabber Id "softwarewolf"). Any string containing werewolf will work. The MC will only take into account requests until the game starts.
 
         werewolf
+  
+Playing the game
+----------------
+
+* During the night, werewolves can use send the following _private_ message to the MC to choose which player to eat:
+
+        I eat <playername>
+        
+* During the day, a villager can cast a vote to hang the player suspected of being a werewolf. The player with the majority vote will be lynched. 
+
+        I vote for <playername> 
+
     
-–> Any string containing werewolf will indicate you are a candidate to play the werewolf role. The MC will only take into account requests until the game starts.
