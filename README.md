@@ -48,11 +48,11 @@ The MC outputs information as the game progresses.
 ###Switching between night and day
 
 Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject accordingly:
-* The chatroom topic that indicates it's the werewolves turn:
+* The chatroom topic that indicates the night has arrived and it's the werewolves turn:
 
         Night
         
-* The chatroom topic that indicates it's the villagers turn:
+* The chatroom topic that indicates the day has arrived and it's the villagers turn:
 
         Day
 
