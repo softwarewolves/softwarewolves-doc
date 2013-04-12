@@ -5,6 +5,7 @@ In this coding contest, you develop an XMPP client bot that
 * tells the game co-ordinator that it wants to step into the arena,
 * accepts an invitation to join a chat room where the game will play,
 * votes when asked to do so by the room's moderator.
+
 Actually, if you play your cards right and choose one of the common programming languages that we provide a basic bot for, you do not need to develop the above functionality - it is already there in the basic bot.
 Perhaps unsurprisingly, you do not score any points in the contest for the above functionality.
 You only start scoring when you implement functionality that is requested by the product owner, such as
@@ -19,7 +20,7 @@ Similarly, if you need to build a bot from scratch, we advise that you do so on 
 In this document, we cannot describe the abstractions that you will encounter in the library that you have chosen or we have chosen for you.
 Instead, we will give a quick overview of XMPP concepts that underly your bot operation.
 Some you may not encounter.
-If, on the other hand, the current description does not cover your needs, you may find what you need on [the website of the XMPP Standards Foundation][2]
+If, on the other hand, the current description does not cover your needs, you may find what you need on [the website of the XMPP Standards Foundation][2].
 
 Clients need to present credentials to authenticate to the server.
 The XMPP servers we use in the game all accept username/password credentials. Proviso: JID.
