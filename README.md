@@ -22,7 +22,7 @@ To start a game, you need to send the following chatmessage to the so-called Gam
     
 –> Indicates you want to play a werewolves game. The Game Coordinator will dispatch you to a chatroom.
 
-To  indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies (Jabber Id "softwarewolf"):
+To  indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies of the chatroom (Jabber Id "softwarewolf"):
 
     werewolf
     
