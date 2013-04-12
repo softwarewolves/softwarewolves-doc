@@ -29,8 +29,8 @@ Starting a game
 
         You are selected as werewolf for this game. 
   
-Commands for playing the game
------------------------------
+Input: commands for playing the game
+------------------------------------
 
 * During the night, the werewolf can use send the following _private_ message to the MC to choose which player to eat:
 
@@ -40,8 +40,8 @@ Commands for playing the game
 
         I vote for <playername> 
 
-Interpreting the game progress
-------------------------------
+Output: information messages about the progress of the game
+-----------------------------------------------------------
 
 The MC outputs information as the game progresses.
 
