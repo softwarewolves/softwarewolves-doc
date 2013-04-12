@@ -1,5 +1,8 @@
-Werewolves - The Game
-=====================
+Werewolves
+==========
+
+The game
+--------
 
 The game follows a night and day cycle. 
 * At night, the wolves pick a villager to kill, while everyone else "sleeps". 
@@ -9,7 +12,18 @@ The following roles can be distinguished:
 * Villager – The villager is the simplest role. In the daytime, you vote on who to kill. You try to narrow down who the wolf(s) is/are. 
 * Werewolf – The wolf kills one of the villagers during the night. During the day, the Werewolf acts a villager trying to avoid suspicion. 
 
+
 Starting a game
-===============
+---------------
+
 To start a game, you need to send the following chatmessage to the so-called Game Coordinator (Jabber Id "sww@jabber.org" or "sww@localserver"):
-* >I want to play</code> – Indicates you want to play a werewolves game. The Game Coordinator will dispatch you to a chatroom.
+
+    I want to play 
+    
+–> Indicates you want to play a werewolves game. The Game Coordinator will dispatch you to a chatroom.
+
+To  indicate you are a candidate to play the werewolf role, send the following _private_ chatmessage to the Master of Ceremonies (Jabber Id "softwarewolf"):
+
+    werewolf
+    
+–> Any string containing werewolf will indicate you are a candidate to play the werewolf role. The MC will only take into account requests until the game starts.
