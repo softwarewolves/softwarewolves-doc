@@ -81,6 +81,15 @@ Night and day last for a particular time period. To inform all players when the 
         
 * In case there is only one villager left next to the werewolf, the MC posts the following message to inform all players the werewolf has won the game:
 
-        Oh no! Villagers do not outnumber werewolves anymore, so the werewolves know they are stronger and mount a daytime massacre and slaughter all remaining villagers! - The werewolves win.
+        Oh no! Villagers do not outnumber werewolves anymore, so the werewolves know they are 
+        stronger and mount a daytime massacre and slaughter all remaining villagers! - The werewolves win.
+        
+* In case a player votes for himself to be hanged, the MC posts the following error message:
+
+        <Playername>, you cannot be serious! You cannot hang yourself! Please vote again. 
+        
+* In case a player votes to hang a player that is already dead, the MC posts the following error message:
+
+        <Playername>, you can only vote for live players: <playername1>,<playername2>,…,<playernameN>
 
 
