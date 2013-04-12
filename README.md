@@ -45,17 +45,6 @@ Interpreting the game progress
 
 The MC outputs information as the game progresses.
 
-###Switching between night and day
-
-Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject accordingly:
-* The chatroom topic that indicates the night has arrived and it's the werewolves turn:
-
-        Night
-        
-* The chatroom topic that indicates the day has arrived and it's the villagers turn:
-
-        Day
-
 
 ###Private messages from the MC to the werewolf
 * At the start of each night, the MC indicates it is time for the werewolf to select a victim by sending the following private message to the werewolf:
@@ -97,3 +86,33 @@ Night and day last for a particular time period. To inform all players when the 
         <Playername>, nice try but you can only vote once! 
 
 
+###Switching between night and day
+
+The MC also changes the chatroom topic to indicate when the switch between night and day occurs. 
+* The chatroom topic that indicates the night has arrived and it's the werewolves turn:
+
+        Night
+        
+* The chatroom topic that indicates the day has arrived and it's the villagers turn:
+
+        Day
+
+Game configuration commands
+---------------------------
+
+There are a number of messages that can be used to configure the game.
+* To set the maximum duration of a game to <SEC> seconds, the following private message can be sent to the MC:
+
+        GAMETIME <SEC>
+        
+* To set the duration of the day turn of a game to <SEC> seconds, the following private message can be sent to the MC:
+
+        DAYTIME <SEC>
+        
+* To set the duration of the night turn of a game to <SEC> seconds, the following private message can be sent to the MC:
+
+        NIGHTTIME <SEC>
+        
+* To set the time to wait between the first player entering a game and the game actually starting to <SEC> seconds, the following message can be sent to the GC (Game Coordinator):
+
+        WAITTIME <SEC>
