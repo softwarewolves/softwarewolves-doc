@@ -71,6 +71,16 @@ Night and day last for a particular time period. To inform all players when the 
 
         Please vote who should be hanged: <playername1>,<playername2>,…,<playernameN>
         
-*
+* After all votes have been cast (or the time for voting expires), the MC counts the votes and posts the following message to inform all players who was hanged:
+
+        The villagers hanged <Playername>
+        
+* In case the villagers hanged the werewolf, the MC posts the following message to inform the villagers they have won the game:
+
+        Yes! The last werewolve is dead! Finally peace in the village! The villagers win.
+        
+* In case there is only one villager left next to the werewolf, the MC posts the following message to inform all players the werewolf has won the game:
+
+        Oh no! Villagers do not outnumber werewolves anymore, so the werewolves know they are stronger and mount a daytime massacre and slaughter all remaining villagers! - The werewolves win.
 
 
