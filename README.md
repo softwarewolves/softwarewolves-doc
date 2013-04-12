@@ -32,8 +32,13 @@ Playing the game
 
         I eat <playername>
         
-* During the day, a villager can cast a vote to hang the player suspected of being a werewolf. The player with the majority vote will be lynched. 
+* During the day, a villager can cast a vote to hang the player suspected of being a werewolf by sending the following chatroom message. The player with the majority vote will be lynched. 
 
         I vote for <playername> 
 
-    
+Narrator output
+---------------
+
+The MC outputs information in the chatroom as the game progresses.
+
+Night and day last for a particular time period. To inform all players when the switch between night and day occurs, the MC changes the chatroom subject to _Night_ or _Day_. 
