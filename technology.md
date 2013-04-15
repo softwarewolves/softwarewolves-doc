@@ -7,7 +7,8 @@ When you are working on more advanced stuff, you may need some of the concepts d
 introduction
 =============
 
-The underlying technology used for the Softwarewolves game is the [Extensible Messaging and Presence Protocol (XMPP)][1], AKA *Jabber*.
+The underlying technology used for the Softwarewolves game is [Extensible Messaging and Presence Protocol (XMPP)][1].
+XMPP grew out of *Jabber* and is often referred to by that name.
 Players are XMPP clients, but so are the game co-ordinator and the game engine.
 In this coding contest, you develop an XMPP client bot that
 * connects to an XMPP server, 
@@ -37,9 +38,15 @@ establishing a connection with the server
 Clients need to present credentials to authenticate to the server.
 The XMPP servers we use in the game all accept username/password credentials.
 When authentication with the server succeeds, the client opens an *XML Stream* that will act as a container for so-called *XML Stanzas*.
-You can think of the stream as a bi-directional connection from your bot to the server.
+You can think of the stream as a bi-directional connection from your bot to the server and the stanzas as messages that flow over the connection.
 
-XMPP makes a distinction between an *entity* and 
+The aim of XMPP is to allow entities on the network communicate with each other in near-realtime.
+As far as XMPP is concerned, an entity is defined by an account on an XMPP server.
+An account has an address of the form *local-part@domainpart* e.g., *juliet@im.example.com*, which is also referred to as a *bare JID*.
+An address in XMPP is called a *JID*, short for Jabber ID.
+Multiple connections may be established on behalf of a single account, so there is a third element to a JID, namely the *resource*.
+A full JID, then, looks like this: *local-part@domainpart/resource*.
+The domain part of a JID identifies an XMPP on which the account resides.
 
 
 
