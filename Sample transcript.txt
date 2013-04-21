@@ -1,3 +1,12 @@
+This file contains the transcript of a sample game. The transcript below shows the output in the chatroom and is visible to all participants. The roles are as follows:
+MC: the master of ceremonies that controls the gameplay
+Testplayer: the werewolf of the game
+joligeheidi, bimboooo, den_john, pelvis, mo_werewolf, Testplayer : the other players in the room that are mere villagers.
+
+
+Transcript
+----------
+
 22:44:42 joligeheidi: Howdy!
 22:44:42 bimboooo: Howdy!
 22:44:43 den_john: Howdy!
