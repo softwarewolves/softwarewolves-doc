@@ -1,11 +1,17 @@
-This file contains the transcript of a sample game. The transcript below shows the output in the chatroom and is visible to all participants. The roles are as follows:
-MC: the master of ceremonies that controls the gameplay
-Testplayer: the werewolf of the game
-joligeheidi, bimboooo, den_john, pelvis, mo_werewolf, Testplayer : the other players in the room that are mere villagers.
+This file contains the transcript of a sample game. The transcripts are twofold:
+
+ * the Chatroom transcript (visible to all players)
+ * the Werewolf transcript (private chatroom) in which the werewolf selects his victims
+
+The roles are as follows:
+
+ * MC: the master of ceremonies that controls the gameplay
+ * Testplayer: the werewolf of the game
+ * joligeheidi, bimboooo, den_john, pelvis, mo_werewolf, Testplayer : the other players in the room that are mere villagers.
 
 
-Transcript
-----------
+Chatroom Transcript
+-------------------
 
 22:44:42 joligeheidi: Howdy!
 22:44:42 bimboooo: Howdy!
@@ -52,3 +58,20 @@ den_john left the room. (22:46:15)
 22:46:15 MC: But what is this?
 22:46:15 MC: The werewolf ate mo_werewolf
 22:46:15 MC: Oh no! Villagers do not outnumber werewolves anymore, so the werewolves know they are stronger and mount a daytime massacre and slaughter all remaining villagers! The werewolves win.
+
+
+Private chat transcript of Testplayer (the werewolf in this game)
+----------------------------------------------------------------
+
+22:44:54 Testplayer: I want to be werewolf
+22:44:54 MC: You are selected as werewolf for this game.
+22:45:11 MC: Please choose who you want to eat: joligeheidi,bimboooo,den_john,pelvis,mo_werewolf
+22:45:26 Testplayer: I eat joligeheidi
+22:45:36 MC: Please choose who you want to eat: den_john,pelvis,mo_werewolf
+22:45:43 Testplayer: I eat pelvis
+22:45:52 MC: Please choose who you want to eat: mo_werewolf
+22:46:15 Testplayer: I eat mo_werewolf
+
+
+
+
