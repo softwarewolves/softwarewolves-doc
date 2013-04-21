@@ -1,6 +1,8 @@
 Werewolves
 ==========
 
+Mafia (Russian: Ма́фия, also known as Werewolf, Assassin, Witch Hunt, Palermo Nights or Pirates) is a party game created in the USSR by Dimitry Davidoff in 1986,[3] modelling a battle between an informed minority (the mafia) and an uninformed majority (the townspeople). Players are secretly assigned roles: either mafia, who know each other; or townspeople, who know only the number of mafia amongst them. In the game's night phase the mafia covertly "murder" a townsperson. During the day phase, all of the surviving players debate the identities of the mafia and vote to eliminate a suspect. Play continues until all of the mafia have been eliminated, or until the mafia outnumber the townspeople. 
+
 The game
 --------
 
