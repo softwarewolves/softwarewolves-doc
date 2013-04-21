@@ -2,8 +2,9 @@ Story acceptance procedure
 ==========================
 
 This document describes how to get your software accepted by the business owner. The following procedure applies:
-1.  Reserve a slot for each story you want to demo
-2.	Show your demo and earn your marks
+
+ 1.  Reserve a slot for each story you want to demo
+ 2.	Show your demo and earn your marks
 
 Reserve a slot for each story
 -----------------------------
