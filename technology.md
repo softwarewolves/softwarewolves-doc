@@ -17,7 +17,7 @@ In this coding contest, you develop an XMPP client bot that
 * votes when asked to do so by the room's moderator.
 
 Actually, if you play your cards right and choose one of the common programming languages that we provide a basic bot for, you do not need to develop most of the above functionality - it is already there in the basic bot.
-Perhaps unsurprisingly, you do not score any points in the contest for the above functionality.
+Perhaps unsurprisingly, you do not score any points in the contest for functionality already offered by the basic bot.
 You only start scoring when you implement functionality that is requested by the product owner, such as
 * follow interesting voting strategies,
 * take the role of the werewolf,
