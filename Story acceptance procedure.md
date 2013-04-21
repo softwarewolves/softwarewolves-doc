@@ -9,7 +9,7 @@ This document describes how to get your software accepted by the business owner.
 Reserve a slot for each story
 -----------------------------
 
-Inform the business owner about the story/stories you want to demo. Reservations are closed 5 minutes before the start of each demo session.
+Inform the business owner about the story/stories you want to demo. _Reservations are closed 5 minutes before the start of each demo session._
 
 Be sure you’re well prepared for the demo, as:
  * You will only have 3 minutes for each scenario.
@@ -18,4 +18,4 @@ Be sure you’re well prepared for the demo, as:
 Show your demo and earn your marks
 ----------------------------------
 
-You have at most 3 minutes for each story. It is up to you to convince the business owner you have the story implemented correctly. 
+You have _at most 3 minutes for each story_. It is up to you to convince the business owner you have the story implemented correctly. 
