@@ -16,7 +16,7 @@ In this coding contest, you develop an XMPP client bot that
 * accepts an invitation to join a chat room where the game will play,
 * votes when asked to do so by the room's moderator.
 
-Actually, if you play your cards right and choose one of the common programming languages that we provide a basic bot for, you do not need to develop the above functionality - it is already there in the basic bot.
+Actually, if you play your cards right and choose one of the common programming languages that we provide a basic bot for, you do not need to develop most of the above functionality - it is already there in the basic bot.
 Perhaps unsurprisingly, you do not score any points in the contest for the above functionality.
 You only start scoring when you implement functionality that is requested by the product owner, such as
 * follow interesting voting strategies,
@@ -37,8 +37,6 @@ establishing a connection with the server
 
 Clients need to present credentials to authenticate to the server.
 The XMPP servers we use in the game all accept username/password credentials.
-When authentication with the server succeeds, the client opens an *XML Stream* that will act as a container for so-called *XML Stanzas*.
-You can think of the stream as a bi-directional connection from your bot to the server and the stanzas as messages that flow over the connection.
 
 The aim of XMPP is to allow entities on the network communicate with each other in near-realtime.
 As far as XMPP is concerned, an entity is defined by an account on an XMPP server.
@@ -46,17 +44,39 @@ An account has an address of the form *local-part@domainpart* e.g., *juliet@im.e
 An address in XMPP is called a *JID*, short for Jabber ID.
 Multiple connections may be established on behalf of a single account, so there is a third element to a JID, namely the *resource*.
 A full JID, then, looks like this: *local-part@domainpart/resource*.
-The domain part of a JID identifies an XMPP on which the account resides.
+The local part identifies the person, or bot; the domain part identifies the XMPP server on which the account resides.
 
+In order to authenticate, the account the client is trying to log into has to exist.
+So your client either needs to use an account provided to you by the contest organizers, or you need to register an account first on the target XMPP server.
 
+When authentication with the server succeeds, the client opens an *XML Stream* that will act as a container for so-called *XML Stanzas*.
+You can think of the stream as a bi-directional connection from your bot to the server and the stanzas as messages that flow over the connection.
 
-establish a session on a server
-They should all have 
+stanzas
+=======
+
+Stanzas are XML elements that are sent within a stream. 
+The 2 stanzas you will almost certainly encounter are:
+
+* Presence
+* Message
+
+A presence stanza is sent when the status of a user changes (Idle, Offline, Available, Do not disturb, etc).
+
+Your bot needs to send a message stanza to get the attention of the game co-ordinator (sww@someserver.com).
+
+  <message to=’sww@someserver.com’>
+    <body>I want to play</body>
+  </message>
+
+demonstration and manual tests
+==============================
+
 A human player is advised to use a standard XMPP client such as [Adium][3] or iChat.
-
-In order to interact with each other, players, the game co-ordinator and the game engine must all have signed 
-Players sign into an XMPP server before telling the game co-ordinator they are looking for a game.
-To sign in, the JID, or Jabber ID, must exist on the server that the player connects to.
+You can choose to interact with the game or just observe what the bots are doing by joining a chat room.
+You may know the JID of the chat room to join from your bot's logs, 
+you may arrange for an invitation to a game around the same time as your, or your competitor's, bot by sending an 'I want to play' message to the game co-ordinator,
+or you may arrange for your bot to invite you whenever he is about to do battle.
 
 [1]: http://en.wikipedia.org/wiki/XMPP
 [2]: http://xmpp.org/xmpp-protocols/
