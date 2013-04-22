@@ -5,8 +5,8 @@ You may know the JID of the chat room to join from your bot's logs,
 you may arrange for an invitation to a game around the same time as your, or your competitor's, bot by sending an 'I want to play' message to the game co-ordinator,
 or you may arrange for your bot to invite you whenever he is about to do battle.
 
-Story acceptance procedure
-==========================
+Acceptance procedure
+====================
 
 how to get your software accepted by the business owner:
 
