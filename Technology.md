@@ -65,11 +65,49 @@ A presence stanza is sent when the status of a user changes (*Idle*, *Offline*, 
 
 Your bot needs to send a message stanza to get the attention of the game co-ordinator (sww@someserver.com).
 
-    <message to=’sww@someserver.com’>
+    <message to=’sww@someserver’>
         <body>I want to play</body>
     </message>
 
+After a while, it will receive an invitation
 
+    <message from="villageXXX@conference.someserver" to="some_bot@someserver" type="normal" xmlns:stream="http://etherx.jabber.org/streams">
+        <x xmlns="http://jabber.org/protocol/muc#user">
+            <invite from="softwarewolf@someserver">
+                <reason>come and join the werewolf game</reason>
+            </invite>
+        </x>
+        <x xmlns="jabber:x:conference" jid="villageXXX@conference.someserver">come and join the werewolf game</x>
+        <body>softwarewolf@someserver invites you to the room villageXXX@conference.someserver (come and join the werewolf game) </body>
+    </message>
+    
+which it should accept to gain access to the room by sending a Presence stanza to _villageXXX@conference.someserver/<nickname>_ where the bot will be shown as _nickname_ in the room.
+The stanza should contain an x element with the multi-user chat namespace, _http://jabber.org/protocol/muc_.
+Something along the lines of
+
+    <presence to="villageXXX@conference.someserver/Nicky">
+        <x xmlns="http://jabber.org/protocol/muc"/>
+    </presence>
+
+In multi-user chat, messages do not come from a user's JID, but from the room's JID, qualified by the nickname of the originator of the message, e.g.
+
+    <message from="villageXXX@conference.someserver/MC" to="some_bot@someserver" type="groupchat" xmlns:stream="http://etherx.jabber.org/streams">
+        <body>Yes! The last werewolve is dead! Finally peace in the village! The villagers win.</body>
+    </message>
+    
+Conversely, messages are sent to the room:
+
+    <message to="villageXXX@conference.someserver" type="groupchat">
+        <body>Howdy!</body>
+    </message>
+    
+Private messages, sent by specifying a nickname after the domain part of the room JID and using the _chat_ rather than _groupchat_ type, will only be delivered to the specified nickname:
+
+    <message to="villageXXX@conference.someserver/MC" type="chat">
+        <body>I eat vegetables_only</body>
+    </message>
+
+    
 
 [1]: http://en.wikipedia.org/wiki/XMPP
 [2]: http://xmpp.org/xmpp-protocols/
