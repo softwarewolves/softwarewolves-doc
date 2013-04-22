@@ -19,7 +19,7 @@ Ensure you have a connection to the xmpp server. Actually, there are several cho
   Test them in your xmpp client.
    
 ## 3. Manually play the game   
-A good way to make sure you understand how the game works is to walk through the manual test procedure - see
+A good way to make sure you understand how the game works is to walk through the manual test procedure - see [Acceptance procedure.md](Acceptance procedure.md)
 
 ## 4. Technology
 
