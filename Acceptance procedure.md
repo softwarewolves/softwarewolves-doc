@@ -1,9 +1,10 @@
 This document describes (manual) acceptance testing.
+
 Use a standard XMPP client such as [Adium][3] or iChat.
-You can choose to interact with the game or just observe what the bots are doing by joining a chat room.
-You may know the JID of the chat room to join from your bot's logs, 
-you may arrange for an invitation to a game around the same time as your, or your competitor's, bot by sending an 'I want to play' message to the game co-ordinator,
-or you may arrange for your bot to invite you whenever he is about to do battle.
+You can choose to interact with the game or just observe what the bots are doing by joining a chat room. There are several options to join the same chatroom as your bot, including:
+ * you may know the JID of the chat room to join (e.g. from your bot's logs); 
+ * you may arrange for an invitation to the same game as your bot by sending an 'I want to play' message to the game co-ordinator around the same time;
+ * you may arrange for your bot to invite you whenever he is about to do battle.
 
 Acceptance procedure
 ====================
