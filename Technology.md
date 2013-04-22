@@ -63,7 +63,7 @@ The 2 stanzas you will almost certainly encounter are:
 
 A presence stanza is sent when the status of a user changes (*Idle*, *Offline*, *Available*, *Do not disturb*, etc).
 
-Your bot needs to send a message stanza to get the attention of the game co-ordinator (sww@someserver.com).
+Your bot needs to send a message stanza to get the attention of the game co-ordinator (sww@someserver).
 
     <message to=’sww@someserver’>
         <body>I want to play</body>
