@@ -2,7 +2,7 @@
 
 
 - Having fun while coding! 
-- Tryout if your programming practices and technology choices are really that good for achieving fast business value.
+- Prove that your programming practices and technology choices are really good at quickly achieving business value.
 - Share experiences on programming practices and learn from others
 - Prove your favorite technology rules the world!
 
