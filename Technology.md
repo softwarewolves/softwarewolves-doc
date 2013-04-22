@@ -79,8 +79,13 @@ After a while, it will receive an invitation
         </x>
      </message>
     
-which it should accept to gain access to the room by sending a Presence stanza to _villageXXX@conference.someserver/nickname_ where the bot will be shown as _nickname_ in the room.
-The stanza should contain an x element with the multi-user chat namespace, _http://jabber.org/protocol/muc_.
+which it should accept to gain access to the room by sending a Presence stanza to
+
+    villageXXX@conference.someserver/nickname
+
+where the bot will be shown as _nickname_ in the room.
+The stanza should contain an x element with the multi-user chat namespace,
+    http://jabber.org/protocol/muc
 Something along the lines of
 
     <presence to="villageXXX@conference.someserver/Nicky">
