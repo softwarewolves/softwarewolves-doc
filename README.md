@@ -16,7 +16,7 @@ Prior knowledge of xmpp is not required!
 
 ## Program (mini xp days):
 
-This program is aimed to allow participation by using a single slot of 90 min! 
+This program is aimed to allow participation by using a single slot of 90 min! This session can be started in any slot during the day.
 Of course you are welcome to play more if you want! 
 
 1. Introduction to game and stories, how to get started (15 min)
