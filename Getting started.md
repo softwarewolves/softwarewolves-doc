@@ -1,7 +1,8 @@
 Follow the following steps to get started:
 
 1. Connect to the *awtest* wireless network. Password is *prodata123*.
-1. Make sure you have received 2 accounts for the *software.wolf* XMPP server. One of these is for use by your bot, the other can be used to manually interact with the game and view the activity.
+1. Make sure you have received 2 accounts for the *pi.software.wolf* XMPP server. 
+   One of these is for use by your bot, the other can be used to manually interact with the game and view the activity.
 1. A good way to make sure you understand how the game works is to walk through the manual test procedure - see
 1. Choose the technology stack you want to use in this coding contest. 
    There are basic bots available for 
@@ -11,4 +12,4 @@ Follow the following steps to get started:
     * [*Java*](https://github.com/supernelis/softwarewolves-java-player).
 
     But you may also choose to build a bot from the ground up.
-1. make sure that your bot uses one of the accounts you received on the correct server, i.e. on *software.wolf*.
+1. make sure that your bot uses one of the accounts you received on the correct server, i.e. on *pi.software.wolf*.
