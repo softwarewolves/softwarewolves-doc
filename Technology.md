@@ -85,7 +85,9 @@ which it should accept to gain access to the room by sending a Presence stanza t
 
 where the bot will be shown as _nickname_ in the room.
 The stanza should contain an x element with the multi-user chat namespace,
+
     http://jabber.org/protocol/muc
+
 Something along the lines of
 
     <presence to="villageXXX@conference.someserver/Nicky">
