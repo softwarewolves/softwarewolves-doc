@@ -69,15 +69,7 @@ Your bot needs to send a message stanza to get the attention of the game co-ordi
         <body>I want to play</body>
     </message>
 
-demonstration and manual tests
-==============================
 
-A human player is advised to use a standard XMPP client such as [Adium][3] or iChat.
-You can choose to interact with the game or just observe what the bots are doing by joining a chat room.
-You may know the JID of the chat room to join from your bot's logs, 
-you may arrange for an invitation to a game around the same time as your, or your competitor's, bot by sending an 'I want to play' message to the game co-ordinator,
-or you may arrange for your bot to invite you whenever he is about to do battle.
 
 [1]: http://en.wikipedia.org/wiki/XMPP
 [2]: http://xmpp.org/xmpp-protocols/
-[3]: http://adium.im/
