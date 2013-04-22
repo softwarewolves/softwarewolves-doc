@@ -4,4 +4,4 @@
 1. choose the technology stack you want to use in this coding contest. 
    There are basic bots available for [*node.js*](https://github.com/JohanPeeters/softwarewolves-nodejs-player), [*C#*](https://github.com/supernelis/softwarewolves-dotnet-player), [*Ruby*](https://github.com/rwestgeest/sww) and [*Java*](https://github.com/supernelis/softwarewolves-java-player).
    But you may also choose to build a bot from the ground up.
-1. make sure that your bot uses one of the accounts you received on the correct server (*software.wolf*).
+1. make sure that your bot uses one of the accounts you received on the correct server, i.e. on *software.wolf*.
