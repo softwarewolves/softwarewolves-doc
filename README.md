@@ -1,6 +1,5 @@
 ## Goals of softwarewolves:
 
-
 - Having fun while coding! 
 - Prove that your programming practices and technology choices are really good at quickly achieving business value.
 - Share experiences on programming practices and learn from others
@@ -8,24 +7,39 @@
 
 ## Prerequisites:
 
-
 - Bring your computer
 - A chat client that supports xmpp, such as Pidgin, Adium, etc.
 - A development environment, preferably for Java, .Net, Ruby or Node.js as we provide a basic bot to start from in these technologies.
 Prior knowledge of xmpp is not required!
 
-## Program (mini xp days):
+## Day program :
 
-This program is aimed to allow participation by using a single slot of 90 min! This session can be started in any slot during the day.
-Of course you are welcome to play more if you want! 
+Participants are encouraged to work in pairs. Each pair can choose their own technology and approach. This is not a tutorial, 
+so the organizers will not claim to know the best way to do this. Rather, this is intended a platform to try out new ideas and share experiences.
 
-1. Introduction to game and stories, how to get started (15 min)
-2. Dev iteration 1 (25 min)
-3. Brief demo/retrospective to share experiences (10 min)
-4. Dev Iteration 2 (25 min)
-5. Brief demo/retrospective to share experiences (15 min)
+09:00:00: Introduction to game and stories, how to get started, team formation 
+09:30:00: Dev Iteration
+10:15:00: Demo en retrospective
+10:45:00: Break	
+11:00:00: Dev iteration 
+11:45:00: Demo en retrospective
+12:15:00: Lunch
+13:15:00: Dev iteration
+14:00:00: Demo en retrospective
+14:30:00: Break
+14:45:00: Dev iteration
+15:30:00: Demo
+15:45:00: Break
+16:00:00: Closing + reflection on what was learned	
 
-At the end of the day, the person who got the highest score wins.
+At the end of the day, the team who got the highest score wins. The program will finish before 17u. 
+
+## Retrospectives
+
+The goal of the retrospectives are:
+- What is your secret (selecting the story, setup and dev approach)?
+- Sharing experences (what went well, what did not go well)?
+- What are you going to change in the next iteration?
 
 ## Documentation overview
 
