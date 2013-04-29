@@ -17,20 +17,20 @@ Prior knowledge of xmpp is not required!
 Participants are encouraged to work in pairs. Each pair can choose their own technology and approach. This is not a tutorial, 
 so the organizers will not claim to know the best way to do this. Rather, this is intended a platform to try out new ideas and share experiences.
 
-09:00:00: Introduction to game and stories, how to get started, team formation 
-09:30:00: Dev Iteration
-10:15:00: Demo en retrospective
-10:45:00: Break	
-11:00:00: Dev iteration 
-11:45:00: Demo en retrospective
-12:15:00: Lunch
-13:15:00: Dev iteration
-14:00:00: Demo en retrospective
-14:30:00: Break
-14:45:00: Dev iteration
-15:30:00: Demo
-15:45:00: Break
-16:00:00: Closing + reflection on what was learned	
+- 09:00:00: Introduction to game and stories, how to get started, team formation 
+- 09:30:00: Dev Iteration
+- 10:15:00: Demo en retrospective
+- 10:45:00: Break	
+- 11:00:00: Dev iteration 
+- 11:45:00: Demo en retrospective
+- 12:15:00: Lunch
+- 13:15:00: Dev iteration
+- 14:00:00: Demo en retrospective
+- 14:30:00: Break
+- 14:45:00: Dev iteration
+- 15:30:00: Demo
+- 15:45:00: Break
+- 16:00:00: Closing + reflection on what was learned	
 
 At the end of the day, the team who got the highest score wins. The program will finish before 17u. 
 
