@@ -1,10 +1,15 @@
-## Goals of softwarewolves:
+## Goals:
 
-- Having fun while coding! 
-- Prove that your programming practices and technology choices are really good at quickly achieving business value.
-- Share experiences on programming practices and learn from others
-- Prove your favorite technology rules the world!
+- Apply and adapt programming practices so that you achieve maximum value in simulated market conditions.
+- Share experiences on programming practices and learn from others.
+- Have fun while coding!
 
+The softwarewolves coding contest aims to simulate real world conditions to provide a safe platform for experimenting with technology choices and development practices.
+
+During a contest, we create a hypothetical market place for bots that play the well-known werewolves party game.
+The session organizers have defined functionality for bots that they are prepared to 'pay' for.
+If and when this functionality is demonstrated, the team that delivers it is awarded the published price.
+ 
 ## Prerequisites:
 
 - Bring your computer
@@ -38,7 +43,7 @@ At the end of the day, the team who got the highest score wins. The program will
 
 The goal of the retrospectives are:
 - What is your secret (selecting the story, setup and dev approach)?
-- Sharing experences (what went well, what did not go well)?
+- Sharing experiences (what went well, what did not go well)?
 - What are you going to change in the next iteration?
 
 ## Documentation overview
