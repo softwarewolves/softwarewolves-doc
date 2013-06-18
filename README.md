@@ -22,19 +22,19 @@ Prior knowledge of xmpp is not required!
 Participants are encouraged to work in pairs. Each pair can choose their own technology and approach. This is not a tutorial, 
 so the organizers will not claim to know the best way to do this. Rather, this is intended a platform to try out new ideas and share experiences.
 
-- 13:00 Introduction to game and stories, how to get started, team formation 
-- 13:15 Dev Iteration
-- 14:00 Demo and retrospective
-- 14:30 Break	
-- 14:45 Dev iteration 
-- 15:30 Demo and retrospective
-- 16:00 Break
-- 16:15 Dev iteration
-- 17:00 Demo and retrospective
-- 17:30 Break
-- 17:45 Dev iteration
-- 18:30 Demo and retrospective
-- 18:45 Closing + reflection on what was learned	
+13:00 Introduction to game and stories, how to get started, team formation 
+13:15 Dev Iteration
+14:00 Demo and retrospective
+14:30 Break	
+14:45 Dev iteration 
+15:30 Demo and retrospective
+16:00 Break
+16:15 Dev iteration
+17:00 Demo and retrospective
+17:30 Break
+17:45 Dev iteration
+18:30 Demo and retrospective
+18:45 Closing + reflection on what was learned	
 
 At the end of the day, the team who got the highest score wins and gets rewarded with some choice Belgian chocolates. The program will finish by 7 PM. 
 
