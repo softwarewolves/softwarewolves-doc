@@ -11,13 +11,13 @@ Acceptance procedure
 
 how to get your software accepted by the business owner:
 
- 1.  Reserve a slot for each story you want to demo
+ 1. Reserve a slot for each story you want to demo
  2.	Show your demo and earn your marks
 
 Reserve a slot for each story
 -----------------------------
 
-Inform the business owner about the story/stories you want to demo. _Reservations are closed 5 minutes before the start of each demo session._
+Inform the business owner about the story/stories you want to demo. You can demo at most 2 stories per iteration. _Reservations are closed 5 minutes before the start of each demo session._
 
 Be sure you’re well prepared for the demo, as:
  * You will only have 3 minutes for each scenario.
