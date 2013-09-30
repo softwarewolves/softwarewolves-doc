@@ -104,18 +104,18 @@ Game configuration commands
 ---------------------------
 
 There are a number of messages that can be used to configure the game.
-* To set the maximum duration of a game to <SEC> seconds, the following private message can be sent to the MC:
+* To set the maximum duration of a game in seconds, the following private message can be sent to the MC:
 
         GAMETIME <SEC>
         
-* To set the duration of the day turn of a game to <SEC> seconds, the following private message can be sent to the MC:
+* To set the duration of the day turn of a game in seconds, the following private message can be sent to the MC:
 
         DAYTIME <SEC>
         
-* To set the duration of the night turn of a game to <SEC> seconds, the following private message can be sent to the MC:
+* To set the duration of the night turn of a game in seconds, the following private message can be sent to the MC:
 
         NIGHTTIME <SEC>
         
-* To set the time to wait between the first player entering a game and the game actually starting to <SEC> seconds, the following message can be sent to the GC (Game Coordinator):
+* To set the time to wait between the first player entering a game and the game actually starting in seconds, the following message can be sent to the GC (Game Coordinator):
 
         WAITTIME <SEC>
