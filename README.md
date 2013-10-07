@@ -1,4 +1,4 @@
-## Goals:
+## Goals
 
 - Apply and adapt programming practices so that you achieve maximum value in simulated market conditions.
 - Share experiences on programming practices and learn from others.
@@ -10,14 +10,14 @@ During a contest, we create a hypothetical market place for bots that play the w
 The session organizers have defined functionality for bots that they are prepared to 'pay' for.
 If and when this functionality is demonstrated, the team that delivers it is awarded the published price.
  
-## Prerequisites:
+## Prerequisites
 
 - Bring your computer
 - A chat client that supports xmpp, such as Pidgin, Adium, etc.
 - A development environment, preferably for Java, .Net, Ruby or Node.js as we provide a basic bot to start from in these technologies.
 Prior knowledge of xmpp is not required!
 
-## Day program :
+## Day program
 
 Participants are encouraged to work in pairs. Each pair can choose their own technology and approach. This is not a tutorial, 
 so the organizers will not claim to know the best way to do this. Rather, this is intended a platform to try out new ideas and share experiences.
