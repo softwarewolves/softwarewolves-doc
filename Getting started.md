@@ -37,4 +37,4 @@ There are basic bots available for
   
 ## 5. Adapt the configuration 
 
-Make sure that your bot uses one of the accounts *you received* on the *correct server*, i.e. on *pi.software.wolf* or *awtest1.vm.bytemark.co.uk*.
+Make sure that your bot uses one of the accounts *you received* on the *correct server*, i.e. on *pi.software.wolf* or *softwarewolves.org*.
