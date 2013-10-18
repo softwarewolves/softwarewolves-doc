@@ -4,10 +4,10 @@ After the introduction of the organizers, follow the following steps to get star
 
 Ensure you have a connection to the xmpp server. Actually, there are several choices:
    * When you are located in the werewolves room, we have a completly independent setup to limit the dependence on the conference wireless. You can connect to the *awtest* wireless network. Password is *prodata123*. The server is pi.software.wolf. 
-   * You can also make use of the conference wifi and use a publicaly available server: awtest1.vm.bytemark.co.uk
+   * You can also make use of the conference wifi and use a publicaly available server: softwarewolves.org
 
     $ ping pi.software.wolf
-    $ ping awtest1.vm.bytemark.co.uk
+    $ ping softwarewolves.org
   
 
 ## 2. Get XMPP accounts
