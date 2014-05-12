@@ -6,10 +6,11 @@ Ensure you have a connection to the xmpp server. Actually, there are several cho
    * There is a completely dedicated network. You can connect to it as the *awtest* wireless network. Password is *prodata123*. The server is pi.software.wolf. 
    * There is also a server available on the public network: softwarewolves.org
 
+```shell
     $ ping pi.software.wolf
-    
     $ ping softwarewolves.org
-  
+```
+
 ## 2. Get XMPP accounts
 
   Make sure you have received 2 accounts for the XMPP server from the organizers. 
