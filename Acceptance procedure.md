@@ -20,8 +20,8 @@ Reserve a slot for each story
 Inform the business owner about the story/stories you want to demo. You can demo at most 2 stories per iteration. _Reservations are closed 5 minutes before the start of each demo session._
 
 Be sure you’re well prepared for the demo, as:
- * You will only have 3 minutes for each scenario.
- * The business owner can be less rewarding in case your demos need multiple trials, fail, or are cancelled.
+ * A demo takes at most 3 minutes per scenario.
+ * The business owner will not award full marks if he finds issues in your implementation. He may also impose a penalty, i.e. give you a negative score, if the demo fails or is cancelled.
 
 Show your demo and earn your marks
 ----------------------------------
