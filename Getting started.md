@@ -7,6 +7,7 @@ Ensure you have a connection to the xmpp server. Actually, there are several cho
    * There is also a server available on the public network: softwarewolves.org
 
     $ ping pi.software.wolf
+    
     $ ping softwarewolves.org
   
 ## 2. Get XMPP accounts
