@@ -16,7 +16,7 @@ Ensure you have a connection to the xmpp server. Actually, there are several cho
   
   One of these is for use by your bot, the other can be used to manually interact with the game and view the activity.
   
-  Test them in your xmpp client.
+  Test them in your xmpp client (e.g. pidgin or adium).
    
 ## 3. Manually play the game   
 A good way to make sure you understand how the game works is to walk through the manual test procedure - see [Acceptance procedure.md](Acceptance procedure.md)
