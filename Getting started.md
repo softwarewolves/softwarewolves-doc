@@ -32,9 +32,9 @@ There are basic bots available for
   * [*C#*](https://github.com/supernelis/softwarewolves-dotnet-player)
   * [*Ruby*](https://github.com/rwestgeest/sww)
   * [*Java*](https://github.com/supernelis/softwarewolves-java-player)
-  * [*Scala*](https://github.com/JohanPeeters/basic-softwarewolves-Scala-bot.git)
+  * [*Scala*](https://github.com/JohanPeeters/basic-softwarewolves-Scala-bot)
 
-  But you can also choose to build a bot from the ground up.
+But you can also choose to build a bot from the ground up.
   
 ## 5. Adapt the configuration 
 
