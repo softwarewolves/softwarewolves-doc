@@ -1,4 +1,4 @@
-After the introduction of the organizers, follow the following steps to get started for xp-days:
+After the introduction of the organizers, follow the following steps to get started:
 
 ## 1. XMPP server
 
