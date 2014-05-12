@@ -1,22 +1,21 @@
-After the introduction of the organizers, follow the following steps to get started:
+After the introduction of the organizers, follow these steps to get started:
 
 ## 1. XMPP server
 
 Ensure you have a connection to the xmpp server. Actually, there are several choices:
-   * When you are located in the werewolves room, we have a completly independent setup to limit the dependence on the conference wireless. You can connect to the *awtest* wireless network. Password is *prodata123*. The server is pi.software.wolf. 
-   * You can also make use of the conference wifi and use a publicaly available server: softwarewolves.org
+   * There is a completely dedicated network. You can connect to it as the *awtest* wireless network. Password is *prodata123*. The server is pi.software.wolf. 
+   * There is also a server available on the public network: softwarewolves.org
 
     $ ping pi.software.wolf
     $ ping softwarewolves.org
   
-
 ## 2. Get XMPP accounts
 
   Make sure you have received 2 accounts for the XMPP server from the organizers. 
   
   One of these is for use by your bot, the other can be used to manually interact with the game and view the activity.
   
-  Test them in your xmpp client (e.g. pidgin or adium).
+  Test them in your xmpp client (e.g. Pidgin or Adium).
    
 ## 3. Manually play the game   
 A good way to make sure you understand how the game works is to walk through the manual test procedure - see [Acceptance procedure.md](Acceptance procedure.md)
