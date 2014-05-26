@@ -40,7 +40,7 @@ At the end of the day, the team who got the highest score wins and gets rewarded
 
 ## Retrospectives
 
-The goal of the retrospectives are:
+The goals of the retrospectives are:
 - What is your secret (selecting the story, setup and dev approach)?
 - Sharing experiences (what went well, what did not go well)?
 - What are you going to change in the next iteration?
